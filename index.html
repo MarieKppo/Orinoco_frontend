@@ -10,20 +10,27 @@
 </head>
 <body>
     <!--EN TÊTE / MENU-->
-    <header class="header">
-        <nav class="navbar navbar-expand bg-light navbar-dark">
-            <a href="index.html" title="accueil du site Orinoco"><img src="https://user.oc-static.com/upload/2019/09/04/15675819263013_image1.png" class="navbar-brand"></a>
-            <button class="navbar-toggler" data-toggler="collapse" data-target="#navbarContent"></button>
-            <div id="navbarContent" > <!--ajouter class="collapse" pour bouton menu-->
-                <ul class="list-unstyled list-inline">
-                    <a href="index.html" ><li class="list-inline-item">Accueil</li></a>
-                    <a href="#"><li class="list-inline-item">
-                        Panier
-                        <span class="badge bg-primary rounded-pill">2<!--nombre d'article dans le panier--></span>
-                    </li></a>
-                </ul>
-            </div>
-        </nav>
+    <header class="header bg-light">
+        <div class="row container-fluid">
+            <nav class="navbar navbar-expand  navbar-dark">
+                <a href="index.html" title="accueil du site Orinoco"><img src="images/15675819263013_image1.png" class="navbar-brand"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+                    <span class="navbar-toggler-icon">Menu</span>
+                </button>
+                <div id="navbarContent"  class="collapse navbar-collapse justify-content-end ">
+                    <ul class="list-unstyled list-inline">
+                        <li class="nav-item list-inline-item px-3">
+                            <a href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item list-inline-item px-3 ">
+                            <a href="#">Panier
+                            <span class="badge bg-primary rounded-pill d-inline">2<!--nombre d'article dans le panier--></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </header>
     <!--contenu de la page d'accueil-->
     <div class="container">
@@ -37,7 +44,7 @@
             </div>
         </section>
         <!--articles disponibles-->
-        <section id="articles" class="row justify-content-evenly" >
+        <section id="liste" class="row justify-content-evenly" >
             <!--ours 1-->
             <article class="col-12 col-md-auto col-lg-auto card bg-light">
                 <div class="card-body">
@@ -110,7 +117,7 @@
             </article>
         </section>
     </div>
-    <footer class="bg-dark modal-footer">
+    <footer class="bg-light modal-footer">
         <div>
             <a href="facebook.com" title="réseau social Facebook.com">
                 <img src="images/PictosFacebook.png">
