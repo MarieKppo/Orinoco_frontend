@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="./public/css/style.css" />
     <title>Orinoco</title>
 </head>
-<body>
+<body class="text-primary">
     <!--EN TÊTE / MENU-->
     <header class="header bg-light">
-        <div class="row container-fluid">
+        <div class="container container-fluid"><!--ajouter classe row ?-->
             <nav class="navbar navbar-expand  navbar-dark">
-                <a href="index.html" title="accueil du site Orinoco"><img src="images/15675819263013_image1.png" class="navbar-brand"></a>
+                <a href="index.html" title="accueil du site Orinoco"><img src="images/15675819263013_image1.png" alt="logo d'Orinoco, composé d'un caddie orange et violet et du nom de la marque" class="navbar-brand"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
                     <span class="navbar-toggler-icon">Menu</span>
                 </button>
@@ -35,20 +35,20 @@
     <!--contenu de la page d'accueil-->
     <div class="container">
         <!--présentation du site et de son contenu-->
-        <section id="presentation" class="row" >
+        <section id="presentation" class="row border-bottom mb-3" >
             <div class="col-12">
-                <h1>Bienvenu sur Orinoco</h1>
-                <h2>Trouvez l'ours en peluche de vos rêves parmi notre sélection de qualité</h2>
-                <p>Fabriqués en France dans nos ateliers de Pau, les ours en peluche Orinoco sont en matières recyclées et en coton naturel. 
-                    Ils apporteront douceur, réconfort et style dans le respect de l'environnement, pour le bonheur des petits et des grands !</p>
+                <h1 class="m-3 text-center">Bienvenu sur Orinoco</h1>
+                <h2 class="mx-md-3 text-md-center">L'ours en peluche de vos rêves vous attends parmi notre sélection de qualité</h2>
+                <p class="mx-md-3">Fabriqués en France dans nos ateliers de Pau, les ours en peluche Orinoco sont en matières recyclées et en coton naturel. 
+                Ils apporteront douceur, réconfort et style dans le respect de l'environnement, pour le bonheur des petits et des grands !</p>
             </div>
         </section>
         <!--articles disponibles-->
-        <section id="liste" class="row justify-content-evenly" >
+        <section id="liste" class="row justify-content-evenly mt-3" >
             <!--ours 1-->
             <article class="col-12 col-md-auto col-lg-auto card bg-light">
                 <div class="card-body">
-                    <img src="https://bit.ly/3maTSVI" width="150px" height="150px" />
+                    <img  src="https://bit.ly/3maTSVI" alt="ours en peluche teddy" width="150px" height="150px" /> <!--class="img-fluid"-->
                     <div class="card-title">
                         <h3>Teddy la malice</h3>
                     </div>
@@ -56,13 +56,13 @@
                         <p>description courte de l'ours en question</p>
                         <p>15 €</p>
                     </div>
-                    <button class="btn bg-primary">Sélectionner l'article</button>
+                    <button class="btn bg-secondary">Sélectionner l'article</button>
                 </div>
             </article>
             <!--ours 2-->
             <article class="col-12 col-md-auto col-lg-auto card bg-light">
                 <div class="card-body">
-                    <img src="https://bit.ly/3maTSVI" width="150px" height="150px" />
+                    <img src="https://bit.ly/3maTSVI" alt="ours en peluche teddy" width="150px" height="150px" />
                     <div class="card-title">
                         <h3>Teddy la malice</h3>
                     </div>
@@ -70,13 +70,13 @@
                         <p>description courte de l'ours en question</p>
                         <p>15 €</p>
                     </div>
-                    <button class="btn bg-primary">Sélectionner l'article</button>
+                    <button class="btn bg-secondary">Sélectionner l'article</button>
                 </div>
             </article>
             <!--ours 3-->
             <article class="col-12 col-md-auto col-lg-auto card bg-light">
                 <div class="card-body">
-                    <img src="https://bit.ly/3maTSVI" width="150px" height="150px" />
+                    <img src="https://bit.ly/3maTSVI" alt="ours en peluche teddy" width="150px" height="150px" />
                     <div class="card-title">
                         <h3>Teddy la malice</h3>
                     </div>
@@ -84,13 +84,13 @@
                         <p>description courte de l'ours en question</p>
                         <p>15 €</p>
                     </div>
-                    <button class="btn bg-primary">Sélectionner l'article</button>
+                    <button class="btn bg-secondary">Sélectionner l'article</button>
                 </div>
             </article>
             <!--ours 4-->
             <article class="col-12 col-md-auto col-lg-auto card bg-light">
                 <div class="card-body">
-                    <img src="https://bit.ly/3maTSVI" width="150px" height="150px" />
+                    <img src="https://bit.ly/3maTSVI" alt="ours en peluche teddy" width="150px" height="150px" />
                     <div class="card-title">
                         <h3>Teddy la malice</h3>
                     </div>
@@ -98,13 +98,13 @@
                         <p>description courte de l'ours en question</p>
                         <p>15 €</p>
                     </div>
-                    <button class="btn bg-primary">Sélectionner l'article</button>
+                    <button class="btn bg-secondary">Sélectionner l'article</button>
                 </div>
             </article>
             <!--ours 5-->
             <article class="col-12 col-md-auto col-lg-auto card bg-light">
                 <div class="card-body">
-                    <img src="https://bit.ly/3maTSVI" width="150px" height="150px" />
+                    <img src="https://bit.ly/3maTSVI" alt="ours en peluche teddy" width="150px" height="150px" />
                     <div class="card-title">
                         <h3>Teddy la malice</h3>
                     </div>
@@ -112,27 +112,35 @@
                         <p>description courte de l'ours en question</p>
                         <p>15 €</p>
                     </div>
-                    <button class="btn bg-primary">Sélectionner l'article</button>
+                    <button class="btn bg-secondary">Sélectionner l'article</button>
                 </div>
             </article>
         </section>
     </div>
     <footer class="bg-light modal-footer">
-        <div>
-            <a href="facebook.com" title="réseau social Facebook.com">
-                <img src="images/PictosFacebook.png">
-            </a>
-            <a href="instagram.com" title="réseau social d'image instagram.com">
-                <img src="images/logo-instagram2.png">
-            </a>
-            <a href="twitter.com" title="réseaux social twitter.com">
-                <img src="images/PictosTwitter.png">
-            </a>
-            <a href="mailto:lesplusbeauxoursenpeluches@dumonde.com" title="contacter l'équipe d'Orinoco">
-                <img src="images/PictosEnveloppe.png">
-            </a>
+        <div class="container container-fluid">
+            <div class="row d-inline">
+                <a href="facebook.com" title="réseau social Facebook.com">
+                    <img src="images/PictosFacebook.png">
+                </a>
+                <a href="instagram.com" title="réseau social d'image instagram.com">
+                    <img src="images/logo-instagram2.png">
+                </a>
+                <a href="twitter.com" title="réseaux social twitter.com">
+                    <img src="images/PictosTwitter.png">
+                </a>
+                <a href="mailto:lesplusbeauxoursenpeluches@dumonde.com" title="contacter l'équipe d'Orinoco">
+                    <img src="images/PictosEnveloppe.png">
+                </a>
+            </div>
+            <div class="row ">
+                <div class="col-12 list-inline">
+                    <p class="list-inline-item">Mentions légales</p>
+                    <p class="list-inline-item">Conditions générales de vente</p>
+                    <p class="list-inline-item">Plan du site</p>
+                </div>
+            </div>
         </div>
-        CGV ET MENTIONS LEGALES
     </footer>
     <script src="index.js"></script>
 </body>

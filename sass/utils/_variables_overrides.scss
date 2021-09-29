@@ -1,5 +1,8 @@
 $light-pink : #f3e9f1; //couleur fond logo 
-$soft-purple :  #8f5bfe;//violet roue avant
+$soft-purple :  #623EAF; //#8f5bfe violet roue avant 
 $top-orange : #e68a09;// orange poignée 
 $rosepoudre :  #b97289;//rose poudré milieu
 $dark-purple : #261624;//couleur logo (violet dark dark)
+
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$h2-font-size:                $font-size-base * 1.5 !default;
