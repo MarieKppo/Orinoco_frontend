@@ -8,6 +8,10 @@ img {
   padding: 0.5rem 0.5rem;
 }
 
+i {
+  font-size: 2rem;
+}
+
 .btn {
   color: #ffffff !important;
 }
