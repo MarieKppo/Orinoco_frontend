@@ -10,20 +10,23 @@
 </head>
 <body>
     <!--EN TÊTE / MENU-->
-    <header>
+    <header class="header">
         <nav class="navbar navbar-expand bg-light navbar-dark">
             <a href="index.html" title="accueil du site Orinoco"><img src="https://user.oc-static.com/upload/2019/09/04/15675819263013_image1.png" class="navbar-brand"></a>
             <button class="navbar-toggler" data-toggler="collapse" data-target="#navbarContent"></button>
             <div id="navbarContent" > <!--ajouter class="collapse" pour bouton menu-->
-                <ul>
-                    <li>Accueil</li>
-                    <li>Panier</li>
+                <ul class="list-unstyled list-inline">
+                    <a href="index.html" ><li class="list-inline-item">Accueil</li></a>
+                    <a href="#"><li class="list-inline-item">
+                        Panier
+                        <span class="badge bg-primary rounded-pill">2<!--nombre d'article dans le panier--></span>
+                    </li></a>
                 </ul>
             </div>
         </nav>
     </header>
     <!--contenu de la page d'accueil-->
-    <div class="container container-fluid">
+    <div class="container">
         <!--présentation du site et de son contenu-->
         <section id="presentation" class="row" >
             <div class="col-12">
@@ -34,9 +37,9 @@
             </div>
         </section>
         <!--articles disponibles-->
-        <section id="articles" class="row" >
+        <section id="articles" class="row justify-content-evenly" >
             <!--ours 1-->
-            <article class="col-12 col-md-4 col-lg-3 card bg-light mx-2">
+            <article class="col-12 col-md-auto col-lg-auto card bg-light">
                 <div class="card-body">
                     <img src="https://bit.ly/3maTSVI" width="150px" height="150px" />
                     <div class="card-title">
@@ -50,7 +53,7 @@
                 </div>
             </article>
             <!--ours 2-->
-            <article class="col-12 col-md-4 col-lg-3 card bg-light mx-2">
+            <article class="col-12 col-md-auto col-lg-auto card bg-light">
                 <div class="card-body">
                     <img src="https://bit.ly/3maTSVI" width="150px" height="150px" />
                     <div class="card-title">
@@ -64,7 +67,7 @@
                 </div>
             </article>
             <!--ours 3-->
-            <article class="col-12 col-md-4 col-lg-3 card bg-light mx-2">
+            <article class="col-12 col-md-auto col-lg-auto card bg-light">
                 <div class="card-body">
                     <img src="https://bit.ly/3maTSVI" width="150px" height="150px" />
                     <div class="card-title">
@@ -78,7 +81,7 @@
                 </div>
             </article>
             <!--ours 4-->
-            <article class="col-12 col-md-4 col-lg-3 card bg-light mx-2">
+            <article class="col-12 col-md-auto col-lg-auto card bg-light">
                 <div class="card-body">
                     <img src="https://bit.ly/3maTSVI" width="150px" height="150px" />
                     <div class="card-title">
@@ -92,7 +95,7 @@
                 </div>
             </article>
             <!--ours 5-->
-            <article class="col-12 col-md-4 col-lg-3 card bg-light mx-2">
+            <article class="col-12 col-md-auto col-lg-auto card bg-light">
                 <div class="card-body">
                     <img src="https://bit.ly/3maTSVI" width="150px" height="150px" />
                     <div class="card-title">
