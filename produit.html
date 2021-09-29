@@ -1,0 +1,110 @@
+<!-- html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/style.css" />
+    <!--lien fontawesome et polices-->
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<script src="https://kit.fontawesome.com/c4888e540e.js" crossorigin="anonymous"></script>
+    <title>Orinoco</title>
+</head>
+<body class="text-dark">
+    <!--EN TÊTE / MENU-->
+    <header class="header bg-light">
+        <div class="container container-fluid"><!--ajouter classe row ?-->
+            <nav class="navbar navbar-expand  navbar-dark">
+                <a href="index.html" title="accueil du site Orinoco"><img src="images/15675819263013_image1.png" alt="logo d'Orinoco, composé d'un caddie orange et violet et du nom de la marque" class="navbar-brand"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+                    <span class="navbar-toggler-icon">Menu</span>
+                </button>
+                <div id="navbarContent"  class="collapse navbar-collapse justify-content-end ">
+                    <ul class="list-unstyled list-inline">
+                        <li class="nav-item list-inline-item px-3">
+                            <a href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item list-inline-item px-3 ">
+                            <a href="#">Panier
+                            <span class="badge bg-primary rounded-pill d-inline">2<!--nombre d'article dans le panier--></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--contenu de la page d'accueil-->
+    <div class="container">
+        <!--présentation de l'article sélectionné-->
+        <section id="produit" class="row mb-3" >
+           <div class="row my-3">
+               <div class="col-12 col-md-6">
+                   <img class="card-img" src="https://bit.ly/39LEsS2" alt="description ours en question">
+               </div>
+               <div class="col-12 col-md-6 card ml-md-2">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h3 class="card-header">Teddy la malice</h3>
+                        </div>
+                        <div class="card-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vehicula eros vel arcu gravida volutpat.
+                                 Duis pretium vulputate molestie. Vivamus sem erat, aliquet quis facilisis et, molestie at nisl.
+                                <a href="#description" title="lien vers la description complète de l'article">
+                                    <span class="small">voir plus</span></a>
+                            </p>
+                            <p>choix de la couleur</p>
+                            <p>quantité</p>
+                            <p class="inline"><strong>15 €</strong></p>
+                        </div>
+                    </div>
+                        <button class="btn bg-dark" type="button"><a href="produit.html">Ajouter au panier</a></button>
+               </div>
+           </div>
+        </section>
+        <!--description détaillée du produit-->
+        <section id="description" class="row justify-content-evenly mt-3 border-top pt-3" >
+           <div class="row">
+               <h3>Description détaillée</h3>
+                <p>Fusce eu euismod elit. Morbi sodales purus vitae pharetra congue. Class aptent taciti sociosqu ad litora torquent 
+                    per conubia nostra, per inceptos himenaeos. Curabitur a sapien eu quam viverra tincidunt in vel velit. Mauris sodales
+                     convallis condimentum. Nullam ut est vehicula, tempus orci ut, fringilla lectus. Ut tincidunt suscipit magna, eu mollis
+                      sem sagittis non. Duis posuere lectus sit amet turpis condimentum, vel ultricies mauris lobortis. Nullam vel placerat 
+                      dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin sed justo turpis.Fusce eu euismod elit. Morbi sodales purus vitae pharetra congue. Class aptent taciti sociosqu ad litora torquent 
+                      per conubia nostra, per inceptos himenaeos. Curabitur a sapien eu quam viverra tincidunt in vel velit. Mauris sodales
+                       convallis condimentum. Nullam ut est vehicula, tempus orci ut, fringilla lectus. Ut tincidunt suscipit magna, eu mollis
+                        sem sagittis non. Duis posuere lectus sit amet turpis condimentum, vel ultricies mauris lobortis. Nullam vel placerat 
+                        dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin sed justo turpis.</p>
+           </div>
+        </section>
+    </div>
+    <footer class="bg-light mt-3 py-3">
+        <div class="container container-fluid text-center">
+            <div class="row">
+                <div class="col-12">
+                    <h4>Orinico, les ours en peluche</h4>
+                </div>
+                <div class="col-12 mx-auto py-3">
+                    <a href="https://www.facebook.com/" title="réseau social Facebook.com">
+                        <i class="fab fa-facebook-square" alt="lien vers Facebook"></i></a>
+                    <a href="https://www.instagram.com" title="réseau social d'image instagram.com">
+                        <i class="fab fa-instagram-square"alt="lien vers Instagram"></i></a>
+                    <a href="https://www.twitter.com" title="réseaux social twitter.com">
+                        <i class="fab fa-twitter-square" alt="lien vers Twitter"></i></a>
+                    <a href="mailto:lesplusbeauxoursenpeluches@dumonde.com" title="contacter l'équipe d'Orinoco">
+                        <i class="fas fa-envelope-square" alt="lien pour nous contacter"></i></a>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-12 list-inline small">
+                    <p class="list-inline-item "><a href="#" title="lien vers nos mentions légales">Mentions légales</a> -</p>
+                    <p class="list-inline-item"><a href="#" title="lien vers nos conditions générales de ventes">Conditions générales de vente</a> -</p>
+                    <p class="list-inline-item"><a href="#" title="lien vers le plan de notre site">Plan du site</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
