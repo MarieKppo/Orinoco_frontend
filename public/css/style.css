@@ -5,6 +5,7 @@ img {
 
 .card-body {
   flex: 0 1 auto;
+  padding: 0.5rem 0.5rem;
 }
 
 .btn {
